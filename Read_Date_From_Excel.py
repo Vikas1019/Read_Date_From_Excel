@@ -3,7 +3,7 @@ import re
 from datetime import datetime
 
 # Read the Excel file into a Pandas DataFrame
-df = pd.read_excel("D:/Date_Format.xlsx")
+df = pd.read_excel("path/to/your/excel/file.xlsx")
 
 # Define your date format regex pattern to match dates in the format dd.mm.yyyy
 date_format_regex = r'\b(\d{2})\.(\d{2})\.(\d{4})\b'
